@@ -3,6 +3,8 @@
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 fn main() {
+    // 3.1 Variables and mutability
+
     // use mut to make var mutable
     let mut x = 5;
     println!("The value of x is {}", x);
@@ -34,6 +36,8 @@ fn main() {
     let spaces = spaces.len();
     println!("{}", spaces);
 
+
+    // 3.2 Data Types
 
     // Scalar Types
 
@@ -70,4 +74,6 @@ fn main() {
 
     // Accessing an index thats out of bounds that is provided as an input will
     // result in an index out of bounds error
+
+    // 3.3 Functions
 }
